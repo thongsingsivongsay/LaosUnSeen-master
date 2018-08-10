@@ -84,6 +84,7 @@ public class ServiceFlagment extends Fragment{
                     myAlert.normalDialog("Post False","Please Type on Post");
                 } else {
                     editCurrentPost(postString);
+                    editText.setText("");
                 }
 
 
