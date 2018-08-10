@@ -122,6 +122,8 @@ public class MainFragment extends Fragment{
 
 
 
+
+
     private void registerController() {
         TextView textView = getView().findViewById(R.id.txtRegister);
         textView.setOnClickListener(new View.OnClickListener() {
